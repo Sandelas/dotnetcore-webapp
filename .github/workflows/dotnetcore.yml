@@ -23,7 +23,7 @@ jobs:
       with: 
         app-name: vsazurewebapp # Replace with your app name
         publish-profile: ${{ secrets.publish_profile }} # Define secret variable in repository settings as per action documentation
-        package: './vsazurewebapp' 
+        package: './dotnetcorewebapp' 
         
   #   - name: Curl the website as a smoke test
  #      uses: wei/curl@v1
